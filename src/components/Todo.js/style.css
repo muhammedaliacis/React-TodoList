@@ -1,0 +1,16 @@
+#alltodo{
+    min-height: 43vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: linear-gradient(to right top, #212020, #262525, #2c2a2a, #313030, #373535, #3b3939, #403d3d, #444141, #484545, #4b4848, #4f4c4c, #535050);    width: 70vh;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+#alltodoh1{
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 1px 3px 0 #969696, 1px 13px 5px #aba8a8, -3px 2px 2px rgba(13,11,12,0.95);
+    letter-spacing: 5px;
+}

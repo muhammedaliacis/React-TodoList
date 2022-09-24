@@ -1,0 +1,79 @@
+.list-ul{
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    background-image: linear-gradient(to right top, #646363, #666464, #686565, #6a6667, #6c6768, #6e696a, #716c6c, #736e6e, #767171, #7a7575, #7d7878, #817c7c);
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    min-height: 20vh;
+}
+
+.list{
+    list-style-type: none;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    text-align: left;
+    min-width: 60vh;
+    border: 2px solid transparent;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+    border-radius: 10px;
+    margin-bottom: 4px;
+    margin-top: 4px;
+    position: relative;
+    right: 2.5%;
+    transition: 0.7s;
+    padding-top: 0.4vh;
+    padding-bottom: 0.4vh;
+
+}
+
+.list:hover{
+    scale: 1.05;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+    
+}
+
+.listbuton{
+    position: relative;
+    text-align: center;
+    margin-right: 7vh;
+    margin-left: 2vh;
+    background-color: transparent;
+    border-radius: 100%;
+    cursor: pointer;
+    border: 1px solid red;
+    width: 23px;
+    height: 23px;
+    transition: 1s;
+
+}
+
+
+.delete{
+    position: absolute;
+    bottom: 7px;
+    right: 9px;
+    text-align: center;
+    background-color: transparent;
+    cursor: pointer;
+    border: 1px solid transparent;
+    width: 20px;
+    height: 20px;
+    transition: 1s;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Red_X.svg/2048px-Red_X.svg.png");
+    background-position: center;
+    background-size: 100%;
+}
+.open{
+    transition: 0.7s;
+    background-image: linear-gradient(to right top, #a4a1a1, #a4a1a1, #a4a1a1, #a4a0a0, #a4a0a0, #a7a1a1, #a9a2a2, #aca3a3, #b1a6a6, #b7a8a8, #bcabab, #c2adad);    text-decoration: line-through;
+    color: gray;
+    opacity: 0.9;
+}
+
+.open-buton{
+    background-image: url("https://www.pngitem.com/pimgs/m/122-1226332_green-tick-vector-hd-png-download.png");
+    background-position: center;
+    background-size: 100%;
+    transition: 1s;
+}
