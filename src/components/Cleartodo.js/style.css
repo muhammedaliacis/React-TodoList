@@ -21,3 +21,16 @@
     box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
 
 }
+
+@media only screen and (max-width: 600px) {
+
+    #clear{
+        padding: 3px 1px;
+        left: 8%;
+        top: -7px;
+        min-width: 40px;
+        margin-right: 1vh;
+    }
+    
+
+}
